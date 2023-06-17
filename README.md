@@ -28,3 +28,5 @@ py migrate.py
 py server.py
 ```
 Сервер будет запущен на `localhost:5000`. Можно выполнять запросы и получать json ответы
+ - `POST /bookings` принимает параметры `hotel_id`:int, `in_date`:float (timestamp), `out_date`: float (timestamp)
+ - `POST /reviews` принимает параметры `hotel_id`:int, `rating`:float, `text`:string 
